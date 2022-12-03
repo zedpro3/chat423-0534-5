@@ -1,0 +1,19 @@
+{
+  "name": "support-teleg-bot",
+  "description": "Deploy a Telegram bot that will help you to hide your identity.",
+  "keywords": ["telegram-bot", "python", "proxy"],
+  "website": "https://github.com/Nindza007/teleg_bot",
+  "repository": "https://github.com/Nindza007/teleg_bot",
+  "success_url": "https://github.com/Nindza007/teleg_bot",
+  "env": {
+    "HEROKU_APP_NAME": {
+      "description": "The name of your Heroku app. Yes, again. Just copy-paste it!"
+    },
+    "TELEGRAM_TOKEN": {
+      "description": "Your bot's token. Visit https://t.me/BotFather"
+    },
+    "TELEGRAM_SUPPORT_CHAT_ID": {
+      "description": "Telegram chat_id where the bot will forward all incoming messages. If you want to know your chat_id - add this bot https://t.me/ShowJsonBot to your chat."
+    }
+  }
+}
